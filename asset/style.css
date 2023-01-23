@@ -1,0 +1,218 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html{
+    background: #3b3a3a;
+    color: rgb(230, 221, 221);
+    margin: 0;
+    scroll-behavior: smooth;
+}
+header{
+    text-align: center;
+    background-color: #B5D6B2;
+    width:100%;
+    padding: 0;
+    margin: 0;
+}
+
+h1{
+    margin: 0 !important;
+    padding: 0;
+    font-family: 'Libre Baskerville', serif;
+}
+
+.hob{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    margin-left: 10rem;
+}
+
+#footer_con{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#footer_con a{
+    margin: 2% 5%;
+}
+
+#header{
+    width:100%;
+    height: 100vh;
+    background: whitesmoke;
+    background-size: contain;
+    background-position: center;
+}
+.cont{
+    padding: 5% 0 5% 0;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #FFEFBD;
+}
+.test{
+    text-align: center;
+}
+figure {
+    width: fit-content;
+    /* display: flex; */
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-basis: 1;
+}
+#profilepic{
+    max-width: 25%;
+    height: auto;
+    justify-content: center;
+    border-radius: 100%;
+    border: 10px solid #555;
+}
+
+#sec_two{
+    background-color: #B5D6B2;
+}
+
+#sec_three{
+    background-color: burlywood;
+}
+
+#sec_four{
+    background-color: #B5D6B2;
+}
+
+nav{
+    color: black;
+    background-color: #53131E;
+}
+
+form{
+    margin: 0% 10% 0% 10%;
+}
+
+#hobbies_tab{
+    display: grid;
+    place-items:  center;
+    grid-template-columns: repeat(2, auto);
+    gap: 2rem 0;
+    flex-direction: row;
+}
+
+.section_title{
+    text-align: center;
+    margin-bottom: 2% !important;
+}
+
+#about{
+    text-align: center;
+    margin: 3% 10% 4% 10%;
+}
+
+#ach_img{
+    display: flex;
+    flex-direction: row;
+}
+section{
+    padding-top: 5rem !important;
+}
+figure p{
+    margin: 10%;
+}
+
+footer{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #B5D6B2;
+    width:100%;
+    padding: 0;
+    margin: 0;
+}
+
+@media screen and (max-width: 900px) {
+    header{
+        color: aliceblue;
+        text-align: center;
+        background-color: #364a34;
+        width:100%;
+        padding: 0;
+        margin: 0;
+    }
+
+    nav{
+        color: white;
+        background-color: rgb(0, 0, 0);
+    }
+
+    .cont{
+        padding: 5% 0 5% 0;
+        height: fit-content;
+        display: flex;
+        flex-direction: column;
+        background-color: gray;
+    }
+
+    #profilepic{
+        max-width: 50%;
+        height: auto;
+        justify-content: center;
+        border-radius: 100%;
+        border: 10px solid #555;
+    }
+
+    #hobbies_tab{
+        display: grid;
+        place-items:  center;
+        grid-template-columns: repeat(1, auto);
+        gap: 2rem 0;
+        flex-direction: row;
+    }
+
+    .hob{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-left: 0rem;
+    }
+
+    #sec_two{
+        background-color: beige;
+        color: #555;
+    }
+    
+    #sec_three{
+        background-color: gray;
+    }
+    
+    #sec_four{
+        background-color: beige;
+        color: #555;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .cont{
+        padding: 5% 0 5% 0;
+        height: fit-content;
+        display: flex;
+        flex-direction: column;
+        background-color: rgb(49, 49, 78);
+        color: aliceblue;
+    }
+    #footer_con{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    #ach_img{
+        display: flex;
+        flex-direction: column;
+    }
+
+}
